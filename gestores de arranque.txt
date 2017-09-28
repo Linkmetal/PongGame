@@ -1,0 +1,25 @@
+Gestores de arranque:
+
+Windows{
+    NTLDR (XP, Server 2003)
+    Bootmgr(7, Server 2008) //Hay que usar el BCD
+}
+
+Linux{
+    Lilo(Linux Loader)  //Distribucion
+    grub() => grub2 (ubuntu 10)//Distribucion devian
+}
+
+Se encuentra en una region de memoria llamada sector 0 (el primer sector de la particion del disco duro) de solo lectura
+Se ejecuta en el procedimiento de carga de la BIOS despues de comprobar el hardware instalado, dandole la direccion del gestor para comenzar el arranque del sistema operativo
+
+NTLDR{  si esta hibernado hace cosas distintas
+    Prearranque:
+        -
+
+    Arranque:
+
+    Carga:
+}
+
+BIOS -> MBR -> Sector de inicio -> Cargador de inicio -> Configuración del cargador de inicio -> Sistema Windows

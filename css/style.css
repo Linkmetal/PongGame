@@ -1,0 +1,41 @@
+html{
+	background-color: black;
+	height: 530px;
+	width: 800px;
+}
+
+#world{
+	background-color: black;
+	width: 800px;
+	height: 530px;
+	border: 3px;
+	border-color:white;
+	border-style: solid;
+}
+
+#bar1{
+	position: absolute;
+	background-color: white;
+	width: 10px;
+	height: 70px;
+	margin-left: 10px;
+
+}
+
+
+#bar2{
+	position:absolute;
+	background-color: white;
+	width: 10px;
+	height: 70px;
+	top:10px;
+	left:0px;
+	margin-left: 790px;
+}
+
+#ball{
+	position:relative;
+	background-color: white;
+	width: 10px;
+	height: 10px;
+}
